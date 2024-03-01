@@ -15,7 +15,7 @@ async def NormalSearch(phone_number):
 
 # Streamlit App
 def main():
-    with open("styles.css", "r") as f:
+    with open("streamlit.css", "r") as f:
         css = f.read()
 
     # Your Streamlit app content here
