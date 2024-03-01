@@ -4,7 +4,7 @@ from truecallerpy import bulk_search
 
 def NormalSearch(phone_number):
     country_code = "US"
-    installation_id = "a1i03--lJA-YoFKkPpJkYKoe42mQpRdgh-w22OoFRX4KAAa22vubbc3zA7APDTwT"
+    installation_id = "#"
 
 
     response = asyncio.run(search_phonenumber(phone_number, country_code, installation_id))
