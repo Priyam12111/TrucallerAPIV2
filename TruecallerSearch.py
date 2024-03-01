@@ -13,7 +13,7 @@ def NormalSearch(phone_number):
 
 def BulkSearch(phone_numbers):
     country_code = "US"
-    installation_id = "a1i03--lJA-YoFKkPpJkYKoe42mQpRdgh-w22OoFRX4KAAa22vubbc3zA7APDTwT"
+    installation_id = "#"
 
     response = asyncio.run(bulk_search(phone_numbers, country_code, installation_id))
     name = (response)
