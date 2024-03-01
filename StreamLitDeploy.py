@@ -22,7 +22,7 @@ def main():
 
     # Inject custom CSS
     st.markdown(f"<style>{css}</style>", unsafe_allow_html=True)
-    st.title("Phone Number Name")
+    st.title("Phone Number Details")
 
     phone_number = st.text_input("Enter Phone Number:")
 
