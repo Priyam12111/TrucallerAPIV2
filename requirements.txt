@@ -1,2 +1,2 @@
-trucallerpy
+truecallerpy
 streamlit
